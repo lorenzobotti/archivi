@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Archivio n°2</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="../stilearchivi.css">
+	</head>
+	<body>
+		<ul>
+			<li><a href="../index.html">Home</a></li>
+			<li><a href="https://www.itispaleocapa.edu.it">Homepage sito I.T.I.S. P. Paleocapa</a></li>
+			<li><a href="../archivi.html">Archivi</a></li>
+		</ul>
+
+
+		<div class="w3-container w3-teal w3-margin-bottom">
+			<h1>Archivio n°2</h1>
+			<a href="../archivio1/index.html"><span class="w3-left w3-xxlarge">«</span></a>
+			<a href="../archivio3/index.html"><span class="w3-right w3-xxlarge">»</span></a>
+		</div>
+
+		<div class="w3-row-padding ">
+			<div class="w3-twothird" style="text-align:center; table-align:center">
+				<div class="w3-content w3-section" style="max-width:600px">
+					<img class="mySlides" src="foto1.jpg" style="width:100%">
+					<img class="mySlides" src="foto2.jpg" style="width:100%">
+					<img class="mySlides" src="foto3.jpg" style="width:100%">
+					<button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+					<button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+				</div>
+
+				<script>
+					var slideIndex = 1;
+					showDivs(slideIndex);
+
+					function plusDivs(n) {
+					  showDivs(slideIndex += n);
+					}
+
+					function showDivs(n) {
+					  var i;
+					  var x = document.getElementsByClassName("mySlides");
+					  if (n > x.length) {slideIndex = 1}
+					  if (n < 1) {slideIndex = x.length} ;
+					  for (i = 0; i < x.length; i++) {
+						x[i].style.display = "none";
+					  }
+					  x[slideIndex-1].style.display = "block";
+					}
+				</script>
+			</div>
+
+
+			<table align="center" valign="middle" style="width: 100%">
+				<tr>
+					<th>
+						<h2>Caratteristiche della stanza</h2>
+						<table align="center" class="w3-table w3-striped w3-bordered w3-border">
+							<tr><td style="width:50%"><b>Posizione</b></td><td>Sotterraneo</td></tr>
+							<tr><td ><b>Illuminazione</b></td><td>Buona</td></tr>
+							<tr><td><b>Superficie</b></td><td>42m<small><sup>2</small></sup></td></tr>
+							<tr><td><b>Temperatura</b></td><td>variabile in base al meteo esterno</td></tr>
+							<tr><td><b>Accessibilità</b></td><td>al personale o persone autorizzate</td></tr>
+							<tr><td><b>Armadi e scaffali</b></td><td>vari scaffali e cassettiere</td></tr>
+							<tr><td><b>Quantità di documenti o metri lineari</b></td><td>non calcolabile</td></tr>
+						</table>
+					</th>
+
+					<th>        </th>
+
+					<th>
+						<h2>Caratteristiche dei documenti</h2>
+						<table align="center" class="w3-table w3-striped w3-bordered w3-border">
+							<tr><td style="width:50%"><b>Segnature</b></td><td>Sì</td></tr>
+	        	  <tr><td ><b>Ordinamento</b></td><td>Parziale</td></tr>
+	        	  <tr><td><b>Tipo di ordinamento</b></td><td>Autore</td></tr>
+	        	  <tr><td><b>Stato di conservazione</b></td><td>Molto buono</td></tr>
+	        	  <tr><td><b>Documento più recente</b></td><td>2018</td></tr>
+	        	  <tr><td><b>Documento più antico</b></td><td>1938</td></tr>
+	        	  <tr><td><b>Funzione</b></td><td>Didattico/Divulgativo</td></tr>
+						</table>
+					</th>
+				</tr>
+
+
+			<div class="w3-third">
+				<h1>Descrizione archivio</h1>
+				<p style="text-align:justify">
+					L'archivio si trova nei sotterranei, la stanza si presenta in contindizioni non ottimali. Non essendo mai stato allagato, questo archivio gode di condizioni
+					migliori rispetto al primo.
+				</p>
+
+				<h1>Descrizione oggetti</h1>
+				<p style="text-align:justify">
+					Gli oggetti sono raggruppati negli scaffali in base all'anno, mentre negli scatoloni, in base ai professori.
+					La stanza continene: vecchi registri, verifiche degli alunni e diplomi.
+				</p>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,97 @@
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <!--<link rel="stylesheet" href="node_modules/bulma/css/bulma.min.css"/>-->
+    <link rel="stylesheet" href="../css/style.css"/>
+  </head>
+  <body>
+    <nav class="navbar" style="background-color: #ECD82D">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="https://www.itispaleocapa.edu.it">
+          <img src="../logo.png"/>
+        </a>
+      </div>
+      <div class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item" href="../index.html">Home page</a>
+          <div class="navbar-item has-dropdown-menu is-hoverable">
+            <a class="navbar-link" href="../archivi.html" style="background-color: #ECD82D">Stanze</a>
+            <div class="navbar-dropdown is-boxed">
+              <a class="navbar-item" href="../atrio/index.html">Atrio</a>
+              <a class="navbar-item" href="../corridoio/index.html">Atrio della presidenza</a>
+              <a class="navbar-item" href="../biblioteca/index.html">Biblioteca</a>
+              <a class="navbar-item" href="../tessile/index.html">Biblioteca del tessile</a>
+              <a class="navbar-item" href="../archivio1/index.html">Archivio n° 1</a>
+              <a class="navbar-item" href="../archivio2/index.html">Archivio n° 2</a>
+              <a class="navbar-item" href="../archivio3/index.html">Archivio n° 3</a>
+            </div>
+          </div>
+
+          <a class="navbar-item" href="../pietrop.html">Storia della scuola</a>
+        </div>
+      </div>
+    </nav>
+    <div class="hero is-primary is-small" style="margin-bottom: 1rem;">
+      <div class="hero-body has-text-centered">
+        <h1 class="title">Atrio principale</h1>
+      </div>
+    </div>
+    <div class="columns">
+      <div class="column">
+        <img src="foto1.jpg" id="foto" alt="Pietro Paleocapa">
+      </div>
+      <div class="column">
+        <div class="content" style="text-align: justify">
+          <h2 class="title">Descrizione archivio</h2>
+      		<p style="text-align:justify">
+      			L'atrio si trova all'entrata della scuola, è molto ampio, e al suo interno ci sono 4 spazi ognuno simboleggia un differente indirizo dell'istituto:elettronica,meccanica,informatica,tessile.
+      		</p>
+
+      		<h2 class="title">Descrizione oggetti</h2>
+      		<p style="text-align:justify">
+      			Il primo spazio è dedicato all'elettronica: qui possiamo trovare 10 differenti oggetti che sono datati intorno al 1950/60. Il secondo spazio rappresenta l'indirizzo di meccanica: qui vediamo una locomotiva a vapore del 1908. Il terzo spazio è dedicato all'informatica: dove sono stati collocati alcuni computer degli anni '90, come la workstation 9000/380. L'ultimo spazio riguarda l'indirizzo tessile: qui possiamo ammirare un vecchio telaio a mano a navetta dei primi anni del '900.
+      		</p>
+      	 </div>
+        </div>
+      </div>
+    <div class="columns">
+      <div class="column">
+        <h2 class="title">Caratteristiche della stanza</h2>
+        <table class="table">
+          <tr><td style="width:50%"><b>Posizione</b></td><td>Piano terra (biennio)</td></tr>
+      	  <tr><td ><b>Illuminazione</b></td><td>Ottima</td></tr>
+      	  <tr><td><b>Superficie</b></td><td>150m<small><sup>2</small></sup></td></tr>
+      	  <tr><td><b>Temperatura</b></td><td>variabile in base al meteo esterno</td></tr>
+      	  <tr><td><b>Accessibilità</b></td><td>Libera</td></tr>
+      	  <tr><td><b>Armadi e scaffali</b></td><td>Mancanti</td></tr>
+      	  <tr><td><b>Quantità di documenti o metri lineari</b></td><td>14</td></tr>
+        </table>
+      </div>
+      <div class="column">
+        <div class="content" style="text-align: justify">
+          <h2 class="title">Caratteristiche dei documenti</h2>
+      	  <table class="table">
+            <tr><td style="width:50%"><b>Segnature</b></td><td>Sì, sul telaio</td></tr>
+        	  <tr><td ><b>Ordinamento</b></td><td>Casuale</td></tr>
+        	  <tr><td><b>Tipo di ordinamento</b></td><td>/</td></tr>
+        	  <tr><td><b>Stato di conservazione</b></td><td>Ottimo</td></tr>
+        	  <tr><td><b>Documento più recente</b></td><td>1990</td></tr>
+        	  <tr><td><b>Documento più antico</b></td><td>1908</td></tr>
+        	  <tr><td><b>Funzione</b></td><td>Espositiva-figurativa</td></tr>
+      	  </table>
+      	 </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      var indeximg = 1;
+      var img = document.getElementById("foto");
+      var timer = setInterval(function galleria(){
+        if(indeximg==1){img.src="foto2.jpg";indeximg=2;console.log("cambiata");}
+        else if(indeximg==2){img.src="foto3.jpg";indeximg=3;console.log("cambiata");}
+        else if(indeximg==3){img.src="foto4.jpg";indeximg=4;console.log("cambiata");}
+        else if(indeximg==4){img.src="foto1.jpg";indeximg=1;console.log("cambiata");}
+      }, 3000);
+    </script>
+  </body>
+</html>

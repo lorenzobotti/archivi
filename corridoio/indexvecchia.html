@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Atrio Presidenza</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="../stilearchivi.css">
+	</head>
+	<body>
+		<ul>
+			<li><a href="../index.html">Home</a></li>
+			<li><a href="https://www.itispaleocapa.edu.it">Homepage sito I.T.I.S. Paleocapa</a></li>
+			<li><a href="../archivi.html">Archivi</a></li>
+		</ul>
+
+		<div class="w3-container w3-teal w3-margin-bottom">
+			<h1>Atrio Presidenza</h1>
+			<a href="../atrio/index.html"><span class="w3-left w3-xxlarge">«</span></a>
+			<a href="../tessile/index.html"><span class="w3-right w3-xxlarge">»</span></a>
+		</div>
+
+		<div class="w3-row-padding ">
+			<div class="w3-twothird" style="text-align:center; table-align:center">
+				<div class="w3-content w3-section" style="max-width:600px">
+					<img class="mySlides" src="foto1.jpg" style="width:100%">
+					<img class="mySlides" src="foto2.jpg" style="width:100%">
+					<img class="mySlides" src="foto3.jpg" style="width:100%">
+						
+					<button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+					<button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+				</div>
+
+				<script>
+					var slideIndex = 1;
+					showDivs(slideIndex);
+
+					function plusDivs(n) {
+					  showDivs(slideIndex += n);
+					}
+
+					function showDivs(n) {
+					  var i;
+					  var x = document.getElementsByClassName("mySlides");
+					  if (n > x.length) {slideIndex = 1} 
+					  if (n < 1) {slideIndex = x.length} ;
+					  for (i = 0; i < x.length; i++) {
+						x[i].style.display = "none"; 
+					  }
+					  x[slideIndex-1].style.display = "block"; 
+					}
+				</script>
+			</div>
+
+		  <table align="center" valign="middle" style="width: 100%">
+			<tr>
+				<th>   	  
+				<h2>Caratteristiche della stanza</h2>
+				   <table align="center" class="w3-table w3-striped w3-bordered w3-border">
+					  <tr><td style="width:50%"><b>Posizione</b></td><td>Primo piano</td></tr>
+					  <tr><td ><b>Illuminazione</b></td><td>Ottima</td></tr>
+					  <tr><td><b>Superficie</b></td><td>250m<small><sup>2</small></sup></td></tr>
+					  <tr><td><b>Temperatura</b></td><td>riscaldamento presente</td></tr>
+					  <tr><td><b>Accessibilità</b></td><td>ad alunni e visitatori</td></tr>
+					  <tr><td><b>Armadi e scaffali</b></td><td>10</td></tr>
+					  <tr><td><b>Quantità di documenti o metri lineari</b></td><td>22m</td></tr>		 
+				  </table>     
+				</th>
+				  
+				<th>        </th>
+				
+				<th>   	  	  
+					<h2>Caratteristiche dei documenti</h2>
+					<table align="center" class="w3-table w3-striped w3-bordered w3-border">
+						<tr><td style="width:50%"><b>Segnature</b></td><td>Sì</td></tr>
+						<tr><td ><b>Ordinamento</b></td><td>Parziale</td></tr>
+						<tr><td><b>Tipo di ordinamento</b></td><td>Cronologico</td></tr>
+						<tr><td><b>Stato di conservazione</b></td><td>Buono</td></tr>
+						<tr><td><b>Documento più recente</b></td><td>1969</td></tr>
+						<tr><td><b>Documento più antico</b></td><td>1889</td></tr>
+						<tr><td><b>Funzione</b></td><td>Didattico-amministrativo</td></tr>
+					</table>
+				</th>
+			</tr>
+
+			<div class="w3-third">
+				<h1>Descrizione corridoio presidenza</h1>
+				<p style="text-align:justify">
+					Il corridoio è pulito e ordinato, foto e documenti sono conservati chiusi nelle teche o in scaffali.
+				</p>
+				
+				<h1>Descrizione oggetti</h1>
+				<p style="text-align:justify">
+					All' interno delle al centro del corridoio ci sono alcune foto storiche del paleocapa, risalenti anche agli anni 1927-1928 (per la maggior parte),
+					rappresentanti le classi dell'istituto a quel tempo e una parte della ditta/laboratori.
+					Abbiamo trovato anche alcuni libri che sembrano registri della scuola risalenti sempre agli stessi anni.
+				 </p>
+			</div>
+		</div>
+	</body>
+</html>

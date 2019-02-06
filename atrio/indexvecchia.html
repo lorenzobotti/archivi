@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	.links a{color:red;text-decoration:none;}
+	.links a:hover{color:#AE201F;}
+</style>
+	<meta charset="utf-8" />
+	<title>Atrio</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../stilearchivi.css">
+</head>
+<body>
+	<ul>
+		<li><a href="../index.html">Home</a></li>
+		<li><a href="https://www.itispaleocapa.edu.it">Homepage sito I.T.I.S. Paleocapa</a></li>
+		<li><a href="../archivi.html">Archivi</a></li>
+	</ul>
+
+	<div class="w3-container w3-teal w3-margin-bottom">
+	<h1>Atrio della sede centrale</h1>
+	<a href="../biblioteca/index.html"><span class="w3-left w3-xxlarge">«</span></a>
+	<a href="../corridoio/index.html"><span class="w3-right w3-xxlarge">»</span></a>
+	</div>
+
+	<div class="w3-row-padding ">
+	<div class="w3-twothird" style="text-align:center; table-align:center">
+	<div class="w3-content w3-section" style="max-width:600px">
+	
+		
+	<img class="mySlides" src="foto1.jpg" style="width:100%">
+	<img class="mySlides" src="foto2.jpg" style="width:100%">
+	<img class="mySlides" src="foto3.jpg" style="width:100%">
+	<img class="mySlides" src="foto4.jpg" style="width:100%">
+
+<button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+<button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+	
+	
+	</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1} 
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none"; 
+  }
+  x[slideIndex-1].style.display = "block"; 
+}
+	</script>
+	</div>
+
+
+	  <table align="center" valign="middle" style="width: 100%">
+	<tr>
+	<th>   	  
+	
+	<h2>Caratteristiche della stanza</h2>
+	   <table align="center" class="w3-table w3-striped w3-bordered w3-border">
+	  <tr><td style="width:50%"><b>Posizione</b></td><td>Piano terra (biennio)</td></tr>
+	  <tr><td ><b>Illuminazione</b></td><td>Ottima</td></tr>
+	  <tr><td><b>Superficie</b></td><td>150m<small><sup>2</small></sup></td></tr>
+	  <tr><td><b>Temperatura</b></td><td>variabile in base al meteo esterno</td></tr>
+	  <tr><td><b>Accessibilità</b></td><td>Libera</td></tr>
+	  <tr><td><b>Armadi e scaffali</b></td><td>Mancanti</td></tr>
+	  <tr><td><b>Quantità di documenti o metri lineari</b></td><td>14</td></tr>
+	 
+	  </table>     
+	  </th>
+	  
+	<th>        </th>
+	
+	<th>   	  	  
+	<h2>Caratteristiche dei documenti</h2>
+	   <table align="center" class="w3-table w3-striped w3-bordered w3-border">
+	  <tr><td style="width:50%"><b>Segnature</b></td><td>Sì, sul telaio</td></tr>
+	  <tr><td ><b>Ordinamento</b></td><td>Casuale</td></tr>
+	  <tr><td><b>Tipo di ordinamento</b></td><td>/</td></tr>
+	  <tr><td><b>Stato di conservazione</b></td><td>Ottimo</td></tr>
+	  <tr><td><b>Documento più recente</b></td><td>1990</td></tr>
+	  <tr><td><b>Documento più antico</b></td><td>1908</td></tr>
+	  <tr><td><b>Funzione</b></td><td>Espositiva-figurativa</td></tr>
+	  </table>
+	  
+	</th>
+	</tr>
+
+
+
+	<div class="w3-third">
+		<h1>Descrizione archivio</h1>
+		<p style="text-align:justify">
+			L'atrio si trova all'entrata della scuola, è molto ampio, e al suo interno ci sono 4 spazi ognuno simboleggia un differente indirizo dell'istituto:elettronica,meccanica,informatica,tessile.
+		</p>
+	
+		<h1>Descrizione oggetti</h1>
+		<p style="text-align:justify">
+			Il primo spazio è dedicato all'elettronica qui possiamo trovare 10 differenti oggetti che sono datati intorno al 1950/60.
+			Il secondo spazio è dedicato a meccanica qui vediamo una locomotiva a vapore del 1908.
+			Il terzo spazio è dedicato all'informatica qui possiamo trovare alcuni computer degli anni '90 come la workstation 9000/380.
+			L'ultimo spazio è dedicato al tessile qui possiamo trovare un vecchio telaio a mano a navetta dei primi anni del '900.
+		</p>
+	</div>
+	</div>
+	</body>
+</html>
