@@ -1,4 +1,4 @@
-# Portale archivi - 3IB
+# Portale archivi  3IB
 Un piccolo portale informativo creato dalla 3IB riguardante gli archivi dell'I.T.I.S. Paleocapa.
 
 ## Installazione
@@ -17,4 +17,4 @@ Il codice è rilasciato sotto la licenza **GNU General Public License v3.0**, qu
 Ilcodice HTML e il contenuto delle pagine è stato scritto dagli studenti della classe **3IB** dell'anno scolastico 2018/2019 dell'I.T.I.S. Paleocapa.
 
 ## Ringraziamenti
-Questo sito non esisterebbe senza il framework open source [https://bulma.io](Bulma).
+Questo sito non esisterebbe senza il framework open source [Bulma](https://bulma.io).
