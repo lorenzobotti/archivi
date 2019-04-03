@@ -18,3 +18,4 @@ Ilcodice HTML e il contenuto delle pagine è stato scritto dagli studenti della 
 
 ## Ringraziamenti
 Questo sito non esisterebbe senza il framework open source [Bulma](https://bulma.io).
+Un ringraziamento a Nils Wittler per la [timeline](https://codepen.io/NilsWe/pen/FemfK) usata nella pagina su Pietro Paleocapa.
